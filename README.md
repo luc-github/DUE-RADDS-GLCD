@@ -10,7 +10,8 @@ I digged in and got a good setup to make it work :
 
 Here the normal usage:
 <img src=https://github.com/luc-github/DUE-RADDS-GLCD/blob/master/Images/RADDS.png?raw=true>
-<CENTER><img src=https://github.com/luc-github/DUE-RADDS-GLCD/blob/master/Images/RADDS-REPRAPGRAPHICLCD.png?raw=true width=75%></CENTER>
+<CENTER><img src=https://github.com/luc-github/DUE-RADDS-GLCD/blob/master/Images/RADDS-REPRAPGRAPHICLCD.png?raw=true width=75%></CENTER>    
+
 When connections are ok with Ramps-FD, I got some issues with RADDS, the schematics suggest to use pins 42/43 for RS and EN but for me it is not working.
 I have tried on both RADDS I have and initialization is ramdomly failed or give a garbage screen. I got same behaviour with text LCD.
 I suspect some "noise" due to proximity of VCC so I RS/EN then to pins 46/ 47 because Graphical LCD does not need and bingo - no more issue, same for text LCD using 42/43 for LCD 6/LCD 7 and 46/47 for RS/EN also solved the problem.
