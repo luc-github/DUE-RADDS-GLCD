@@ -24,7 +24,7 @@ Here the corresponding pins:
 (sorry for the picture, I do not know how to make it clear)    
 
 #Firmware
-I use repetier as seems the most stable for DUE
+I use repetier as seems the most stable for DUE   
 1 - Edit the uconfig.h
 *Beeper Pin (41)
 ```
