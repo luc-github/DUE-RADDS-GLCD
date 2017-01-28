@@ -24,7 +24,7 @@ Here the corresponding pins:
 (sorry for the picture, I do not know how to make it clear)    
 
 #Firmware
-* This pin out is used on [MarlinKimbra](http://marlinkimbra.it/) a very fancy and nice Firmware - so it is prety easy.
+* This pin out is used on [MarlinKimbra](http://marlinkimbra.it/) a very fancy and nice Firmware - so it is pretty easy to apply.
 * For others firmwares like [repetier](https://github.com/repetier/Repetier-Firmware), here the needed changes:   
 1 - Edit the uconfig.h
 *Beeper Pin (41)
