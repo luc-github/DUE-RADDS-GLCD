@@ -70,14 +70,15 @@ Here the corresponding pins:
   //UI_KEYS_INIT_BUTTON_LOW(42);
   ```
   
-*The encoder actions. and comment the others keys
+*The encoder actions. and comment the others keys   
+```
  UI_KEYS_CLICKENCODER_LOW_REV(50,52); // click encoder on pins 50 and 52. Phase is connected with gnd for signals.
  UI_KEYS_BUTTON_LOW(48,UI_ACTION_OK); // push button, connects gnd to pin
  //UI_KEYS_BUTTON_LOW(5,UI_ACTION_NEXT); // push button, connects gnd to pin
  //UI_KEYS_BUTTON_LOW(6,UI_ACTION_PREVIOUS); // push button, connects gnd to pin
  //UI_KEYS_BUTTON_LOW(11,UI_ACTION_BACK); // push button, connects gnd to pin
  //UI_KEYS_BUTTON_LOW(42,UI_ACTION_SD_PRINT ); // push button, connects gnd to pin
-
+```
 2- Edit configuration.h
 *LCD has SD Card support
 ```
